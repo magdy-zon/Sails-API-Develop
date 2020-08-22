@@ -132,3 +132,14 @@ lib-cov
 *.out
 *.pid
 
+
+################################################
+# Custom ignore files
+################################################
+.env
+config/local.js
+config/credentials/*
+.editorconfig
+config/config.json
+coverage/*
+.nyc_output/*

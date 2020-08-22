@@ -2,7 +2,7 @@
   "development": {
     "username": "jaque",
     "password": "jaque",
-    "database": "food_central_dev",
+    "database": "auth-database",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

@@ -1,17 +1,6 @@
 {
   "hooks": {
-  "blueprints": false,
-  "orm": false,
-  "i18n": false,
   "pubsub": false,
-  "grunt": false,
-  "session": false
-  },
-  "generators": {
-    "modules": {}
-  },
-  "_generatedWith": {
-    "sails": "1.2.4",
-    "sails-generate": "1.17.2"
+  "orm": false
   }
 }

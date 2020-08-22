@@ -4,17 +4,25 @@
  * @description :: Server-side actions for handling incoming requests.
  * @help        :: See https://sailsjs.com/docs/concepts/actions
  */
- //
- // const path = require('path');
- // const Sequelize = require('sequelize');
- //
- // const config = require(path.resolve(__dirname, '../../config/config.json'))["development"];
- //
- // sequelize = new Sequelize('food_central_dev', 'mJuarez', 'root', {host:'localhost', dialect:'postgres'});
 
 module.exports = {
+  /************ LOGIN/signUp ***************/
+  login(req, res) {
+    const firebase = new Firebase();
 
-  /************ CREATE ADMIN***************/
+    console.log(req.params.idToken)
+  },
+
+  signup(req, res) {
+    return sequelize
+      .transaction(t1 => {
+        return User.create(req.body);
+      })
+      .then(req.created)
+      .catch(res.negotiate);
+  },
+
+  /************ CREATE ADMIN ***************/
   createAdmin(req, res) {
     return sequelize
       .transaction(t1 => {
@@ -30,6 +38,18 @@ module.exports = {
   },
 
   /************ CREATE USER***************/
+  getUser(req, res) {
+    const firebase = new Firebase();
+    console.log(req.params.idToken);
+    return firebase.getUser(req.params.idToken)
+    .then(function(userRecord) {
+      console.log(userRecord);
+    })
+    .catch(function(err) {
+      console.log(err);
+    })
+  },
+
   create(req, res) {
       return sequelize
         .transaction(t1 => {
@@ -42,4 +62,5 @@ module.exports = {
         .then(res.created)
         .catch(res.negotiate);
     },
+
 };
