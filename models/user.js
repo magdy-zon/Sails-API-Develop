@@ -13,8 +13,11 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> Cnfg global variables with ohmytasks
           // Whe try to code
           // Whe try to code
           // Whe try to code
@@ -24,9 +27,12 @@ module.exports = (sequelize, DataTypes) => {
 =======
       // Whe try to code
 >>>>>>> (FEAT): Add new models and code commit
+<<<<<<< HEAD
 >>>>>>> c03ffe3... Cnfg global variables with ohmytasks
 =======
 >>>>>>> 49a823b... (FEAT): Add new models and code commit and another commits
+=======
+>>>>>>> Cnfg global variables with ohmytasks
     }
   };
   User.init({
