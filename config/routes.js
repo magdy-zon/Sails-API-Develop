@@ -27,4 +27,5 @@ module.exports.routes = {
     action: 'getUser',
     body: 'idToken'
   }
+  
 };
