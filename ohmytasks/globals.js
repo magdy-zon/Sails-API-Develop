@@ -21,5 +21,6 @@ module.exports = function(sails, next) {
   .catch(err => {
     console.error('Unable to connect to the database:', err);
   });
+
   return next();
 }
