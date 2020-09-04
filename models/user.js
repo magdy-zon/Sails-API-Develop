@@ -13,7 +13,6 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       // Whe try to code
       // Whe try to code
-      
     }
   };
   User.init({
