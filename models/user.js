@@ -27,10 +27,12 @@ module.exports = (sequelize, DataTypes) => {
       // Whe try to code
       // Whe try to code
       // Whe try to code
-
-
-
-
+          // Whe try to code
+          // Whe try to code
+          // Whe try to code
+          // Whe try to code
+          // Whe try to code
+          // Whe try to code
     }
   };
   User.init({
