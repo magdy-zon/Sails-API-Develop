@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
           // Whe try to code
@@ -24,6 +25,8 @@ module.exports = (sequelize, DataTypes) => {
       // Whe try to code
 >>>>>>> (FEAT): Add new models and code commit
 >>>>>>> c03ffe3... Cnfg global variables with ohmytasks
+=======
+>>>>>>> 49a823b... (FEAT): Add new models and code commit and another commits
     }
   };
   User.init({
