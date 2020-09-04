@@ -14,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ module.exports = (sequelize, DataTypes) => {
 >>>>>>> 49a823b... (FEAT): Add new models and code commit and another commits
 =======
 >>>>>>> Cnfg global variables with ohmytasks
+=======
+>>>>>>> (FEAT): Add new models and code commit and another commits
     }
   };
   User.init({
