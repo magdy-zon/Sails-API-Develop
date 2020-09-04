@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       // Whe try to code
+      // Whe try to code
+      // Whe try to code
+      // Whe try to code
+      // Whe try to code
     }
   };
   User.init({
