@@ -1,6 +1,6 @@
 # Sails API develop project initialization
 
-a [Sails v1](https://sailsjs.com) application
+[Sails v1](https://sailsjs.com) application
 
 
 ### Links
